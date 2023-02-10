@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux';
 
 import { getTasks, getStatusFilter } from 'redux/selectors';
+import { statusFilters } from 'redux/constants';
 
 import { Task } from 'components/Task/Task';
-import { statusFilters } from 'redux/constants';
 
 import { ListStyled, ItemStyled } from './TaskList.styled';
 

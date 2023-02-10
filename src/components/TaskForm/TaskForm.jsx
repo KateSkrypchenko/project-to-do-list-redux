@@ -1,7 +1,8 @@
 import { useDispatch } from 'react-redux';
 
+import { addTask } from 'redux/operations';
+
 import { Button } from 'components/Button/Button';
-import { addTask } from 'redux/tasksSlice';
 
 import { FormStyled, InputStyled } from './TaskForm.styled';
 
